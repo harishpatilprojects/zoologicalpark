@@ -114,26 +114,26 @@ Contact: http://www.bootshape.com/contact.php
     
 
      
-    <!-- Content -->
+     <!-- Content -->
     <div class="container" style="width: 100%; max-width: 800px; margin: auto;">
       <br>
-      <div class="form-section" style="width: 100%; max-width: 400px; margin: auto;">
-          <b style="text-align: center; display: block;">You can fill the information here to contact us</b><br><br>
-          <form action="your-form-handler.php" method="post">
+      <div class="form-section" style="width: 100%; max-width: 400px; margin: auto; border: 1px solid #ccc; border-radius: 5px; padding: 20px;">
+          <b style="text-align: center; display: block;">You Can Fill The Information Here To Contact Us</b><br><br>
+          <form action="" method="post"> <!-- Action points to the same page -->
               <div class="form-group" style="display: flex; align-items: center; margin-bottom: 15px;">
-                  <label for="name" style="width: 100px; margin: 0; height: 40px; line-height: 40px;">Name :</label>
-                  <input type="text" id="name" name="name" class="form-control" required style="flex-grow: 1; width: calc(100% - 110px); height: 40px; margin-left: 10px;">
+                  <input type="text" id="name" name="name" placeholder="Name" class="form-control" required style="flex-grow: 1; width: calc(100% - 10px); height: 40px; margin-left: 10px;">
               </div>
               <div class="form-group" style="display: flex; align-items: center; margin-bottom: 15px;">
-                  <label for="email" style="width: 100px; margin: 0; height: 40px; line-height: 40px;">Email :</label>
-                  <input type="email" id="email" name="email" class="form-control" required style="flex-grow: 1; width: calc(100% - 110px); height: 40px; margin-left: 10px;">
+                  <input type="email" id="email" name="email" placeholder="Email" class="form-control" required style="flex-grow: 1; width: calc(100% - 10px); height: 40px; margin-left: 10px;">
+              </div>
+              <div class="form-group" style="display: flex; align-items: center; margin-bottom: 15px;">
+                  <input type="text" id="subject" name="subject" placeholder="Subject" class="form-control" required style="flex-grow: 1; width: calc(100% - 10px); height: 40px; margin-left: 10px;">
               </div>
               <div class="form-group" style="display: flex; align-items: flex-start; margin-bottom: 15px;">
-                  <label for="message" style="width: 100px; margin: 0; height: 40px; line-height: 40px;">Message :</label>
-                  <textarea id="message" name="message" class="form-control" rows="5" required style="flex-grow: 1; width: calc(100% - 110px); margin-left: 10px; height: auto;"></textarea>
+                  <textarea id="message" name="message" placeholder="Message" class="form-control" rows="5" required style="flex-grow: 1; width: calc(100% - 10px); margin-left: 10px; height: auto;"></textarea>
               </div>
-              <div style="display: flex; justify-content: flex-end;">
-                  <button type="submit" class="btn" style="padding: 8px 16px; background-color: #262626; color: white; border: none; cursor: pointer; font-size: 14px;">Send Message</button>
+              <div style="display: flex; justify-content: center;">
+                  <button type="submit" class="btn" style="padding: 8px 16px; background-color: #262626; color: white; border: none; cursor: pointer; font-size: 14px; width: calc(100% - 10px); height: 40px; margin-left: 10px;">Send Message</button>
               </div>
           </form><br>
           <p style="color: red; text-align: center"><b>NOTE:</b> A contact form needs a way to email the input.</p>
